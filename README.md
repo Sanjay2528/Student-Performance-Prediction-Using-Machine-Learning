@@ -51,7 +51,7 @@ The dataset contains student academic information.
 
 # 📁 Project Structure
 
-```text
+text
 
 #student-performance-predictor/
 │
@@ -63,3 +63,10 @@ The dataset contains student academic information.
 └── README.md
 
 # Installation
+
+bash
+pip install -r requirements.txt
+
+python train_model.py
+streamlit run app.py
+
