@@ -61,8 +61,4 @@ student-performance-predictor/
 ├── requirements.txt
 └── README.md
 
-git clone https://github.com/YOUR_USERNAME/student-performance-predictor.git
-cd student-performance-predictor
-python -m venv venv
-venv\Scripts\activate
-
+# Installation
