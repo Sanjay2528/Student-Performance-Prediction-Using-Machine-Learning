@@ -1,26 +1,18 @@
 # Student Performance Predictor Using Machine Learning
 
-## 1. Project Overview
+# 📌 Overview
 
-Student Performance Predictor is a Machine Learning project that predicts a
-student's final academic score based on different academic and personal
-factors such as study hours, attendance, previous marks, assignment scores,
-and internal assessment marks.
+This project uses Machine Learning to predict a student's final academic score based on factors such as study hours, attendance, previous marks, assignment scores, internal assessment, sleep hours, and class participation.
 
-The project demonstrates the basic Machine Learning workflow, including data
-preprocessing, exploratory data analysis, model training, model evaluation,
-and prediction.
+# 🎯 Objectives
 
-## 2. Objectives
+- Predict student academic performance.
+- Analyze factors affecting student performance.
+- Train and evaluate Machine Learning models.
+- Compare model performance.
+- Provide predictions for new student data.
 
-- To predict student academic performance using Machine Learning.
-- To identify factors that affect student performance.
-- To preprocess and analyze student data.
-- To train Machine Learning models for prediction.
-- To evaluate and compare the performance of different models.
-- To predict the expected final score for a student.
-
-## 3. Technologies Used
+# 🛠️ Technologies Used
 
 - Python
 - Pandas
@@ -28,29 +20,25 @@ and prediction.
 - Scikit-learn
 - Matplotlib
 - Seaborn
-- Joblib
 - Streamlit
+- Joblib
 
-## 4. Machine Learning Models
-
-The project uses the following Machine Learning algorithms:
+# 🤖 Machine Learning Models
 
 - Linear Regression
 - Random Forest Regression
 
-The models are evaluated using:
+# 📊 Evaluation Metrics
 
-- Mean Absolute Error (MAE)
-- Mean Squared Error (MSE)
+- MAE
+- MSE
 - R² Score
 
-## 5. Dataset
+# 📂 Dataset
 
-The dataset contains information about students and their academic
-performance.
+The dataset contains student academic information.
 
-### Input Features
-
+**Features:**
 - Study Hours
 - Attendance
 - Previous Marks
@@ -59,42 +47,22 @@ performance.
 - Sleep Hours
 - Class Participation
 
-### Target Variable
+**Target:** Final Score
 
-The target variable is the student's final academic score.
-
-## 6. Project Workflow
-
-The project follows these steps:
-
-1. Load the dataset.
-2. Check and clean the data.
-3. Perform exploratory data analysis.
-4. Select relevant features.
-5. Split the data into training and testing sets.
-6. Train the Machine Learning models.
-7. Evaluate the models.
-8. Compare model performance.
-9. Save the best-performing model.
-10. Use the trained model to predict student performance.
-
-## 7. Project Structure
+# 📁 Project Structure
 
 ```text
 student-performance-predictor/
 │
 ├── dataset/
-│   └── student_performance.csv
-│
 ├── models/
-│   └── model.pkl
-│
-├── notebooks/
-│   └── analysis.ipynb
-│
 ├── app.py
 ├── train_model.py
-├── model.py
 ├── requirements.txt
-├── README.md
-└── .gitignore
+└── README.md
+
+git clone https://github.com/YOUR_USERNAME/student-performance-predictor.git
+cd student-performance-predictor
+python -m venv venv
+venv\Scripts\activate
+
