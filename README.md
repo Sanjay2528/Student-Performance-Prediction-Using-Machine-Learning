@@ -66,7 +66,8 @@ student-performance-predictor/
 ```bash
 pip install -r requirements.txt
 ```
-
+#How to run
+```bash
 python train_model.py
 streamlit run app.py
 
