@@ -1,36 +1,42 @@
 # Student Performance Predictor Using Machine Learning
 
-## 📌 Project Overview
+## 1. Project Overview
 
-Student Performance Predictor is a Machine Learning project that predicts a student's final academic score based on factors such as study hours, attendance, previous marks, assignment scores, and other academic-related features.
+Student Performance Predictor is a Machine Learning project that predicts a
+student's final academic score based on different academic and personal
+factors such as study hours, attendance, previous marks, assignment scores,
+and internal assessment marks.
 
-This project demonstrates the complete Machine Learning workflow, including data preprocessing, exploratory data analysis, model training, evaluation, and prediction.
+The project demonstrates the basic Machine Learning workflow, including data
+preprocessing, exploratory data analysis, model training, model evaluation,
+and prediction.
 
-## 🎯 Objectives
+## 2. Objectives
 
-- Predict student academic performance using Machine Learning.
-- Identify important factors affecting student performance.
-- Perform data preprocessing and exploratory data analysis.
-- Train and compare Machine Learning models.
-- Evaluate model performance using suitable metrics.
-- Predict the expected score of a student.
+- To predict student academic performance using Machine Learning.
+- To identify factors that affect student performance.
+- To preprocess and analyze student data.
+- To train Machine Learning models for prediction.
+- To evaluate and compare the performance of different models.
+- To predict the expected final score for a student.
 
-## 🛠️ Technologies Used
+## 3. Technologies Used
 
 - Python
 - Pandas
 - NumPy
+- Scikit-learn
 - Matplotlib
 - Seaborn
-- Scikit-learn
+- Joblib
 - Streamlit
 
-## 🤖 Machine Learning Models
+## 4. Machine Learning Models
 
-The following Machine Learning models are used:
+The project uses the following Machine Learning algorithms:
 
-1. Linear Regression
-2. Random Forest Regression
+- Linear Regression
+- Random Forest Regression
 
 The models are evaluated using:
 
@@ -38,11 +44,12 @@ The models are evaluated using:
 - Mean Squared Error (MSE)
 - R² Score
 
-## 📊 Dataset
+## 5. Dataset
 
-The dataset contains information related to student academic performance.
+The dataset contains information about students and their academic
+performance.
 
-### Features
+### Input Features
 
 - Study Hours
 - Attendance
@@ -52,35 +59,41 @@ The dataset contains information related to student academic performance.
 - Sleep Hours
 - Class Participation
 
-### Target
+### Target Variable
 
 The target variable is the student's final academic score.
 
-## 🔄 Machine Learning Workflow
+## 6. Project Workflow
 
-1. Data Collection
-2. Data Cleaning
-3. Data Preprocessing
-4. Exploratory Data Analysis
-5. Feature Selection
-6. Train-Test Split
-7. Model Training
-8. Model Evaluation
-9. Model Comparison
-10. Final Prediction
+The project follows these steps:
 
-## 📂 Project Structure
+1. Load the dataset.
+2. Check and clean the data.
+3. Perform exploratory data analysis.
+4. Select relevant features.
+5. Split the data into training and testing sets.
+6. Train the Machine Learning models.
+7. Evaluate the models.
+8. Compare model performance.
+9. Save the best-performing model.
+10. Use the trained model to predict student performance.
+
+## 7. Project Structure
 
 ```text
-Student-Performance-Predictor/
+student-performance-predictor/
 │
 ├── dataset/
 │   └── student_performance.csv
 │
+├── models/
+│   └── model.pkl
+│
 ├── notebooks/
-│   └── student_performance_analysis.ipynb
+│   └── analysis.ipynb
 │
 ├── app.py
+├── train_model.py
 ├── model.py
 ├── requirements.txt
 ├── README.md
