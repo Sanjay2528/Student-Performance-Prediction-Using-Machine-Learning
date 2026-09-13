@@ -52,7 +52,8 @@ The dataset contains student academic information.
 # 📁 Project Structure
 
 ```text
-student-performance-predictor/
+
+#student-performance-predictor/
 │
 ├── dataset/
 ├── models/
