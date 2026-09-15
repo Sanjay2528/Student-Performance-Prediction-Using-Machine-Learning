@@ -1,4 +1,4 @@
-#Student Performance Predictor
+#Student performance
 
 #Overview
 This project predicts whether a student will pass or fail based on study habits.
