@@ -1,73 +1,30 @@
-# Student Performance Predictor Using Machine Learning
+ Student Performance Predictor
 
-# 📌 Overview
+ Overview
+This project predicts whether a student will pass or fail based on study habits.
 
-This project uses Machine Learning to predict a student's final academic score based on factors such as study hours, attendance, previous marks, assignment scores, internal assessment, sleep hours, and class participation.
-
-# 🎯 Objectives
-
-- Predict student academic performance.
-- Analyze factors affecting student performance.
-- Train and evaluate Machine Learning models.
-- Compare model performance.
-- Provide predictions for new student data.
-
-# 🛠️ Technologies Used
-
+ Technologies Used
 - Python
-- Pandas
-- NumPy
 - Scikit-learn
-- Matplotlib
-- Seaborn
-- Streamlit
-- Joblib
+- Pandas
 
-# 🤖 Machine Learning Models
+ How to Run
+1. Install Python
+2. Install libraries:
+   pip install pandas scikit-learn
+3. Run:
+   python main.py
 
-- Linear Regression
-- Random Forest Regression
-
-# 📊 Evaluation Metrics
-
-- MAE
-- MSE
-- R² Score
-
-# 📂 Dataset
-
-The dataset contains student academic information.
-
-**Features:**
-- Study Hours
+ Input Features
+- Study hours
 - Attendance
-- Previous Marks
-- Assignment Score
-- Internal Assessment
-- Sleep Hours
-- Class Participation
+- Sleep hours
 
-**Target:** Final Score
+ Output
+- 0 = Fail
+- 1 = Pass
 
-# 📁 Project Structure
-
-```text
-student-performance-predictor/
-│
-├── dataset/
-├── models/
-├── app.py
-├── train_model.py
-├── requirements.txt
-└── README.md
-```
-# Installation
-
-```bash
-pip install -r requirements.txt
-```
-# How to run
-```bash
-python train_model.py
-streamlit run app.py
-
+ Future Improvements
+- Add GUI
+- Use real dataset
+- Improve accuracy
